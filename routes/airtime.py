@@ -30,7 +30,7 @@ def create_transaction():
         })
         headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic MTAxOWVlZWIwZjA5MjE1YTpNVEkyTkROaU1UUTVPRFF5WmpFek1UZ3hNR05sTmpSbU9XWmtZekZqT1dKbU5UQmxObUk1TWpJeE5tUTJPR0l5TURCaE1qQTNOR1ZrTmpFMFltUTVOUT09'
+        'Authorization': 'Basic '
         }
 
         response = requests.request("POST", url, headers=headers, data=payload)
